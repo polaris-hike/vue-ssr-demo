@@ -21,7 +21,6 @@ router.get('/',async (ctx)=>{
             resolve(html);
         })
     })
-    //const html= await render.renderToString()
 })
 
 app.use(static(path.resolve(__dirname,'dist')));
